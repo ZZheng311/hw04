@@ -1,0 +1,16 @@
+# ASR 语音识别实验记录
+## 一、实验环境
+- 操作系统：Windows 11
+- Python 版本：3.10（Anaconda 环境）
+- 运行设备：笔记本 CPU（无独立显卡）
+- 核心依赖版本：
+  - openai-whisper: 20250625
+  - torch: 2.11.0
+  - ffmpeg: 4.3.1
+- 开发工具：Jupyter Lab / Python 脚本
+
+## 二、实验准备
+### 1. 依赖安装过程
+1.  安装 Whisper 与 PyTorch：
+    ```bash
+    pip install openai-whisper torch
