@@ -1,0 +1,9 @@
+# ASR 项目依赖
+# 核心语音识别库
+openai-whisper>=20250625
+# PyTorch 依赖（Whisper 运行必需）
+torch>=2.11.0
+# 音频解码工具（Whisper 读取音频必需）
+ffmpeg>=4.3.1
+# 可选：ffmpeg-python 绑定（用于代码内调用）
+ffmpeg-python>=0.2.0
